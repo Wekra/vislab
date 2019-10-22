@@ -57,7 +57,7 @@ public class FibonacciTest {
 		int result = 1;
 		for (int i = 1; i <= max; i++) {
 			if (i > 1)
-				result = fibonacciService.getFibonacci(i);
+				result = fibonacciService.getFibonacci(i).getResult();
 			System.out.println(result);
 		}
 		// test the 25th f*-nr
