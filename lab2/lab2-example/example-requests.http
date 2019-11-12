@@ -28,3 +28,17 @@ Accept: text/plain
 Cache-Control: no-cache
 
 ###
+
+GET http://localhost:8088/fibonacci
+Accept: text/plain
+Cache-Control: no-cache
+###
+POST http://localhost:8088/fibonacci/next
+Accept: text/plain
+Cache-Control: no-cache
+###
+POST http://localhost:8088/fibonacci/reset
+Accept: text/plain
+Cache-Control: no-cache
+
+###
