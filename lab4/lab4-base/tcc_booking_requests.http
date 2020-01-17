@@ -18,3 +18,5 @@ Accept: text/plain
 ###
 GET http://localhost:4434/application.wadl HTTP/1.1
 Accept: application/xml
+
+###
